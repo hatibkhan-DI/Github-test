@@ -4,7 +4,7 @@ codeunit 50130 "Sales Order Event Management"
     begin
 
     end;
-
+    //New test comment
     // [EventSubscriber(ObjectType::Page, Page::"Sales Order", 'OnAfterActionEvent', 'Release', false, false)]
     // local procedure PostOrderOnAfterActionEvent(var Rec: Record "Sales Header")
     // var
